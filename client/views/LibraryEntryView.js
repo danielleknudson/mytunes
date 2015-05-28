@@ -10,6 +10,7 @@ var LibraryEntryView = Backbone.View.extend({
   },
 
   handleClick: function() {
+    // debugger;
     this.model.enqueue();
     this.model.play();
   },
